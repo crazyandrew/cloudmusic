@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+<view class="weui-cells weui-cells_after-title" wx:for="{{sheetlist}}" class="item" wx:key="{{index}}" data-musicIndex="{{index}}">
+  <view class="listen-content">
+      <navigator url="" class="weui-cell " hover-class="weui-cell_active" data-id="{{item.id}}" data-name="{{item.name}}" data-songUrl="{{item.mp3Url}}" data-picUrl="{{item.picUrl}}" data-singer="{{item.singer}}" open-type="switchTab" bindtap="playMusic">
+        <view class="bg-img" style="background-image:url({{item.picUrl}});">
+        </view>
+        <view class="weui-cell__bd">{{item.name}}
+          <view class="count">{{item.singer}}</view>
+        </view>
+      </navigator>
+    </view>
+
+  </view>
+
+</view>

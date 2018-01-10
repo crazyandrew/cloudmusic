@@ -1,0 +1,58 @@
+.Login{ width:90%; margin:auto; overflow:hidden; padding-top:20px;}
+#my input{
+    border: 1px solid black;
+    float: left;
+    margin-left: 5px;
+}
+/*page{
+    margin-top: 20px;
+}*/
+.section{
+    margin-top: 20px;
+    margin-left:5px;
+    display: flex;
+    flex-direction: row;
+    width:95%; overflow:hidden; overflow:hidden;
+}
+.section__title{
+    width:25%; float:left; font-size:16px; line-height:40px; color:#666;
+}
+.section input{
+    border: 1px solid #DFDFDF; height:30px; line-height:30px; width:95%; padding-left: 5px; -webkit-appearance: none; -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; border-radius: 0; -webkit-rtl-ordering: logical; -webkit-user-select: text; cursor: auto; background-color: white; font-size:14px; line-height:30px;
+}
+#button button{
+    display:block; margin:auto; background:#FF2233; font-size:16px; line-height:40px; 
+ border:0px; color:#FFF; width:97%; margin:auto;margin-top:20px; margin-bottom:10px;border-radius:5px;
+}
+#xia{
+    margin-top: 30px;
+    margin-left:5px;
+}
+#xia checkbox-group{
+    float: left;color:#737373;font-size:15px;
+}
+#xia view{
+    float: left;
+    margin-left: 72px;
+}
+#xia navigator{
+    float: left;
+    margin: 0 3px;
+    color:dodgerblue;font-size:15px;  
+}
+#di{
+    text-align:center;font-size:12px; padding-top:50px;
+    color:#737373;
+}
+#san{
+    margin-left: 23%;
+}
+#san image{
+    width: 40px;
+    height: 40px;
+    margin: 8%  10%;
+}
+#tishi{
+    color:red;
+    text-align:center;font-size:12px; padding-top:8px;
+}

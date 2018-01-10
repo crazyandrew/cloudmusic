@@ -1,0 +1,30 @@
+<view class="login">
+  <view class="section">
+      <view class="section__title">用户名：</view>
+      <input name="username" placeholder="请输入邮箱/手机号" bindinput="usernameInput" />
+  </view>
+  <view class="section">
+      <view class="section__title">密码：</view>
+      <input password type="text" name="password" placeholder="密码" bindinput="passwordInput" />
+  </view>
+  <view id='button'>
+    <button formType="submit" bindtap="loginBtnClick">登录</button>
+  </view>
+  <view id="tishi">
+    {{infoMess}}
+  </view>
+  <view id="xia">
+    <checkbox-group name="checkbox">
+          <label><checkbox value="checkbox1" checked="checked"/>自动登录</label>
+    </checkbox-group>
+    <view style="float:left;">
+      <navigator url="../register/index" open-type="redirect" hover-class="other-navigator-hover">免费注册</navigator>
+      <navigator url="redirect?title=redirect" open-type="redirect" hover-class="other-navigator-hover">忘记密码？</navigator>
+    </view>
+  </view>
+  <view id='di'>第三方登录</view>
+  <view id='san'>
+    <image src="../../images/fm.png" />
+    <image src="../../images/fm.png" />
+  </view>
+</view>
